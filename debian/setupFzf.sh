@@ -6,3 +6,4 @@ if [ -n "$selection" ]; then
 fi' > ~/scripts/fzf.sh
 chmod +x ~/scripts/fzf.sh
 
+source ~/.bashrc

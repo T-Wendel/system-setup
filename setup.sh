@@ -67,12 +67,13 @@ script_order=(
     "update.sh"
     "installToolkit.sh"
     "neovimNightly.sh"
+    "createDirectories.sh"
     "installGo.sh"
 		"installDelve.sh"
-    "createDirectories.sh"
-    "'setupNeovim&Tmux.sh'"
+    "setupNeovimAndTmux.sh"
     "createAliases.sh"
     "setupFzf.sh"
+		"setupStarship.sh"
 )
 
 # Main logic
